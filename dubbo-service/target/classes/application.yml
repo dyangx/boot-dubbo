@@ -1,0 +1,8 @@
+server:
+  port: 8018
+
+spring:
+  dubbo:
+    application:
+      name: dubbo-service
+      registry: zookeeper://152.136.190.118:9000
