@@ -23,21 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a66b607-a518-49e5-8f53-458d4af5e13c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/api/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-service/src/main/java/com/boot/service/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/com/boot/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/com/boot/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-provider/src/main/resources/META-INF/spring/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-provider/src/main/resources/spring/dubbo-provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-provider/src/main/test/java/ProviderBootStrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-web/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/application.yml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,8 +64,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -72,11 +84,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../dubbo-web/src/main/java/com/boot" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dubbo-service" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-provider/src/main/resources/spring" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\boot-dubbo\dubbo-provider\src\main\resources\spring" />
+      <recent name="F:\project\boot-dubbo\dubbo-provider\src\main\resources\META-INF\spring" />
+      <recent name="F:\project\boot-dubbo\dubbo-provider\src\main\test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,7 +112,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceApplication">
+  <component name="RunManager" selected="Application.ProviderBootStrap (1)">
+    <configuration name="ProviderBootStrap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boot.ProviderBootStrap" />
+      <module name="dubbo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderBootStrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.ProviderBootStrap" />
+      <module name="dubbo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dubbo-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.ServiceApplication" />
@@ -114,7 +162,16 @@
     <list>
       <item itemvalue="Spring Boot.ServiceApplication" />
       <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="Application.ProviderBootStrap" />
+      <item itemvalue="Application.ProviderBootStrap (1)" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProviderBootStrap (1)" />
+        <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Application.ProviderBootStrap" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -131,6 +188,8 @@
       <workItem from="1609317026139" duration="32000" />
       <workItem from="1609317129188" duration="1422000" />
       <workItem from="1609318848102" duration="702000" />
+      <workItem from="1610026213693" duration="800000" />
+      <workItem from="1610027154215" duration="6030000" />
     </task>
     <servers />
   </component>

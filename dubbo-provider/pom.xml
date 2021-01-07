@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.boot</groupId>
+	<artifactId>dubbo-provider</artifactId>
+	<version>1.0.0</version>
+	<name>dubbo-provider</name>
+	<description>dubbo-provider project for Spring Boot</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+			<version>2.6.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.boot</groupId>
+			<artifactId>dubbo-api</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- 引入zookeeper的依赖 -->
+		<dependency>
+			<groupId>com.101tec</groupId>
+			<artifactId>zkclient</artifactId>
+			<version>0.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.32.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.curator</groupId>
+			<artifactId>curator-framework</artifactId>
+			<version>4.0.1</version>
+			<type>bundle</type>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.curator</groupId>
+			<artifactId>curator-recipes</artifactId>
+			<version>4.0.1</version>
+			<type>bundle</type>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>dubbo-provider</finalName>
+		<!-- 配置文件的打包操作 -->
+		<resources>
+			<resource>
+				<targetPath>${project.build.directory}/classes</targetPath>
+				<directory>src/main/resources</directory>
+				<!-- 将 xml和properties文件都打包到build目录下的 classes目录下 -->
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.xml</include>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+			<!-- 将Spring 的配置文件单独打包到META-INF目录下 -->
+			<!-- 自动加载META-INF/spring目录下的所有Spring配置。 配置：(配在java命令-D参数或者dubbo.properties中)
+				dubbo.spring.config=classpath*:META-INF/spring/*.xml 配置spring配置加载位置 -->
+			<resource>
+				<targetPath>${project.build.directory}/classes/META-INF/spring</targetPath>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>spring-provider.xml</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+
+</project>
