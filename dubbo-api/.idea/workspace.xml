@@ -22,18 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a66b607-a518-49e5-8f53-458d4af5e13c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/api/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-service/src/main/java/com/boot/service/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/com/boot/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/com/boot/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="6a66b607-a518-49e5-8f53-458d4af5e13c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +120,10 @@
       <workItem from="1609316859524" duration="160000" />
       <workItem from="1609317026139" duration="32000" />
       <workItem from="1609317129188" duration="1422000" />
-      <workItem from="1609318848102" duration="702000" />
+      <workItem from="1609318848102" duration="2843000" />
+      <workItem from="1609988757477" duration="656000" />
+      <workItem from="1609999050821" duration="403000" />
+      <workItem from="1610000813224" duration="41000" />
     </task>
     <servers />
   </component>
